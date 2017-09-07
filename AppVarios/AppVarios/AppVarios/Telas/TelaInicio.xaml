@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppVarios.Telas.TelaInicio"
+             Title="Inicio">
+
+    <StackLayout Padding="25">
+        <Button  Text="Cadastrar Livro" Clicked="botaoLivro_Clicked" FontSize="40"/>
+        <Button  Text="Configurar Jogo" Clicked="botaoJogo_Clicked" FontSize="40"/>
+        <Button  Text="Interesse" Clicked="botaoInteresse_Clicked" FontSize="40"/>
+        <Button  Text="Add Escudo de time" Clicked="botaoEscudo_Clicked" FontSize="40"/>
+    </StackLayout>
+
+</ContentPage>
